@@ -41,6 +41,8 @@ set(onnxruntime_URL2 "https://hf-mirror.com/csukuangfj/onnxruntime-libs/resolve/
 
 if(v STREQUAL "1.11.0")
   set(onnxruntime_HASH "SHA256=36eded935551e23aead09d4173bdf0bd1e7b01fdec15d77f97d6e34029aa60d7")
+elseif(v STREQUAL "1.12.0")
+  set(onnxruntime_HASH "SHA256=633ef41a6b1f50a51cf028e3259e3cdd92ac03e3728cc5b71a9ddc503fbae7f1")    
 elseif(v STREQUAL "1.16.0")
   set(onnxruntime_HASH "SHA256=4c09d5acf2c2682b4eab1dc2f1ad98fc1fde5f5f1960063e337983ba59379a4b")
 elseif(v STREQUAL "1.18.0")
